@@ -1,0 +1,10 @@
+FROM mariadb:latest
+
+# needed for intialization
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_ROOT_PASSWORD=Password@123
+ENV MYSQL_DATABASE=wikidatabase
+ENV MYSQL_USER=sangam
+ENV MYSQL_PASSWORD=Password@123
+
+EXPOSE 3306
